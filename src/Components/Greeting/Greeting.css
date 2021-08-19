@@ -1,7 +1,8 @@
 #greet {
+    position: relative;
     background: rgba(255, 255, 255, 0.05);
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 60px;
+    padding: 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 
 }
