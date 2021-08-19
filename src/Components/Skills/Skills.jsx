@@ -1,4 +1,4 @@
-import {Grid, Card} from "semantic-ui-react";
+import {Card} from "semantic-ui-react";
 import SkillCard from "../SkillCard/SkillCard";
 import "./Skills.css"
 
