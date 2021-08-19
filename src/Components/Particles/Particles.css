@@ -1,0 +1,14 @@
+#tsparticles {
+    background:
+    linear-gradient(to left, rgb(68, 1, 190), transparent),
+    linear-gradient(to bottom left,rgb(255, 0, 157), transparent),
+    linear-gradient(to top left, rgb(0, 238, 255), transparent),
+    linear-gradient(to top right, rgb(96, 148, 0), transparent);
+    background-size: cover;
+    width: 100vmax;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
