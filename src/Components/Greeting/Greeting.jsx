@@ -14,15 +14,18 @@ export default function Greeting(){
 
                     </Grid.Row>
                     <Grid.Row>
+                        <h3 id="location">Lynnwood, WA</h3>
+                    </Grid.Row>
+                    <Grid.Row id="profile-links">
                         <ul id="profile-link-ul">
                             <li className="profile-link-li">
-                                <a href="https://github.com/bosunkim92"><Icon name="github" size="big"/></a>
+                                <a href="https://github.com/bosunkim92" target="_blank" rel="noreferrer"><Icon name="github" size="big"/></a>
                             </li>
                             <li className="profile-link-li">
-                                <a href="https://www.linkedin.com/in/rachel-bosun-kim/"><Icon name="linkedin" size="big"/></a>
+                                <a href="https://www.linkedin.com/in/rachel-bosun-kim/" target="_blank" rel="noreferrer"><Icon name="linkedin" size="big"/></a>
                             </li>
                             <li className="profile-link-li">
-                                <a href="mailto:bosunkim92@gmail.com"><Icon name="mail" size="big"/></a>
+                                <a href="mailto:bosunkim92@gmail.com" target="_blank" rel="noreferrer"><Icon name="mail" size="big"/></a>
                             </li>
                         </ul>
 
@@ -30,9 +33,12 @@ export default function Greeting(){
                 </Grid.Column>
 
                     <Card id="greet">
-                        <h2>Thank you for visiting my web page! 
-                            <br />
-                        My name is <span><h2>Bosun (Rachel) Kim</h2></span>and I am a <span><h2>Full-Stack Software Developer</h2></span></h2>
+                        <h2>Bosun (Rachel) Kim</h2>
+                        <h2>Full-Stack Software Developer</h2>
+                        <br />
+                        <Card.Content>
+                            <h3>Full stack software engineer with a background in Biochemistry (M.S). I value the small details and love to bring my ideas into creation. I love how programming allows me to flex my analytical skills while still being creative. As a software engineer I look forward to learning more and teaching others as I grow.</h3>
+                        </Card.Content>
                     </Card>
 
             </Grid.Row>

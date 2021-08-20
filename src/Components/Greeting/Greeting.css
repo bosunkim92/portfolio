@@ -12,12 +12,20 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+#location {
+    color: white;
+}
 #greeting-div {
     margin-top: 80px;
     background: transparent;
     box-shadow: none;
     display: flex;
     justify-content: center;
+}
+
+#profile-links {
+    position: absolute;
+    bottom: 0px;
 }
 
 #profile-link-ul {
