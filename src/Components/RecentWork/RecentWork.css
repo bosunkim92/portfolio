@@ -1,0 +1,24 @@
+#upper-break-line {
+    margin-top: 100px;
+}
+
+.recent-work {
+    width: 85%;
+    margin: 25px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#recent-work-grid {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+}
+
+#recent-work-heading {
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}

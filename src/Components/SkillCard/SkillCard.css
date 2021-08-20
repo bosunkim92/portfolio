@@ -2,4 +2,10 @@
     background-color: rgba(255, 255, 255, 0.1);
     padding: 8px;
     margin: 5px;
+    width: 133px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#skill-header {
+    color: white;
 }
