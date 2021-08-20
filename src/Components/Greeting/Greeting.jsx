@@ -1,6 +1,7 @@
 import {Grid, Card, Icon, Image} from "semantic-ui-react";
 import profilePic from "../../media/profile.jpg";
 import "./Greeting.css";
+import resume from "../../media/resume.pdf";
 
 
 export default function Greeting(){
@@ -8,7 +9,7 @@ export default function Greeting(){
         <>
         <Grid id="greeting-div">
             <Grid.Row>
-                <Grid.Column style={{minWidth:150}}>
+                <Grid.Column style={{minWidth:200}}>
                     <Grid.Row>
                         <Image src={profilePic} avatar size="huge"/>
 
@@ -26,6 +27,9 @@ export default function Greeting(){
                             </li>
                             <li className="profile-link-li">
                                 <a href="mailto:bosunkim92@gmail.com" target="_blank" rel="noreferrer"><Icon name="mail" size="big"/></a>
+                            </li>
+                            <li className="profile-link-li">
+                                <a href={resume} target="_blank" rel="noreferrer"><Icon name="file pdf" size="big" /></a>
                             </li>
                         </ul>
 
