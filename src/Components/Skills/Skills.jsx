@@ -11,13 +11,13 @@ export default function Skills(){
             <h3 id="skill-intro">
                 Here are list of my technical skills:
             </h3>
-                        <Card.Group id="skill-cards">
-                            {skillList.map((skill)=>{
-                                return(
-                                    <SkillCard skill={skill} />
-                                )
-                            })}
-                        </Card.Group>
+                <Card.Group id="skill-cards">
+                    {skillList.map((skill)=>{
+                        return(
+                            <SkillCard skill={skill} />
+                        )
+                    })}
+                </Card.Group>
             </>
     )
 }
