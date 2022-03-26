@@ -12,6 +12,11 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+#job {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 #location {
     color: white;
 }
